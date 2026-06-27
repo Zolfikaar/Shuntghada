@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using Shuntghada.Services;
+
 
 namespace Shuntghada
 {
@@ -18,6 +20,9 @@ namespace Shuntghada
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+
+            //  تسجيل الـ Database Service كـ Singleton ليكون متاحاً في كل التطبيق
+            builder.Services.AddSingleton<LocalDatabaseService>();
 
             return builder.Build();
         }
