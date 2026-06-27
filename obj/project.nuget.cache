@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uPANw0CJ9KA=",
+  "dgSpecHash": "GviCvXWCrhA=",
   "success": true,
   "projectFilePath": "D:\\Work Files\\UrLabs\\Shuntghada\\Shuntghada.csproj",
   "expectedPackageFiles": [
@@ -132,13 +132,13 @@
     "C:\\Users\\MSI-PC\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.8.1.3\\xamarin.kotlinx.coroutines.core.jvm.1.8.1.3.nupkg.sha512",
     "C:\\Users\\MSI-PC\\.nuget\\packages\\xamarin.kotlinx.serialization.core\\1.7.1.3\\xamarin.kotlinx.serialization.core.1.7.1.3.nupkg.sha512",
     "C:\\Users\\MSI-PC\\.nuget\\packages\\xamarin.kotlinx.serialization.core.jvm\\1.7.1.3\\xamarin.kotlinx.serialization.core.jvm.1.7.1.3.nupkg.sha512",
+    "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.android.ref.35\\35.0.105\\microsoft.android.ref.35.35.0.105.nupkg.sha512",
     "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.android.runtime.35.android-arm64\\35.0.105\\microsoft.android.runtime.35.android-arm64.35.0.105.nupkg.sha512",
     "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.android.runtime.35.android-x64\\35.0.105\\microsoft.android.runtime.35.android-x64.35.0.105.nupkg.sha512",
-    "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.android.ref.35\\35.0.105\\microsoft.android.ref.35.35.0.105.nupkg.sha512",
-    "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64.net9.0_26.5\\26.5.9002\\microsoft.ios.runtime.iossimulator-x64.net9.0_26.5.26.5.9002.nupkg.sha512",
     "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.ios.ref.net9.0_26.5\\26.5.9002\\microsoft.ios.ref.net9.0_26.5.26.5.9002.nupkg.sha512",
-    "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net9.0_26.5\\26.5.9002\\microsoft.maccatalyst.runtime.maccatalyst-x64.net9.0_26.5.26.5.9002.nupkg.sha512",
+    "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64.net9.0_26.5\\26.5.9002\\microsoft.ios.runtime.iossimulator-x64.net9.0_26.5.26.5.9002.nupkg.sha512",
     "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.maccatalyst.ref.net9.0_26.5\\26.5.9002\\microsoft.maccatalyst.ref.net9.0_26.5.26.5.9002.nupkg.sha512",
+    "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net9.0_26.5\\26.5.9002\\microsoft.maccatalyst.runtime.maccatalyst-x64.net9.0_26.5.26.5.9002.nupkg.sha512",
     "C:\\Users\\MSI-PC\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
   ],
   "logs": []

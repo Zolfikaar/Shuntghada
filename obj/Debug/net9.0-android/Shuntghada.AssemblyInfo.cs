@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shuntghada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+97b95e659b479add46de71427efc3f48b6b108be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+46a509266b5713648ab362c838ad1818a950a6a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shuntghada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shuntghada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
