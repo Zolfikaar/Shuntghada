@@ -1,0 +1,43 @@
+﻿## ====== بيئة عمل دوت نت (.NET / Visual Studio) ======
+# ملفات التجميع والـ Build المؤقتة
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ملفات الكاش وأدوات التطوير
+.vs/
+.vsixd/
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+## ====== ملفات نظام التشغيل (OS Files) ======
+# نظام ويندوز
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# نظام ماك (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## ====== قواعد البيانات المحلية (Local Databases) ======
+# استبعاد ملفات قاعدة البيانات الخاصة بـ SQLite التي تتولد أثناء الفحص والتطوير
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+
+## ====== ملفات وحزم وميزات الأندرويد (Android Specific) ======
+*.apk
+*.aab
+*.keystore
+!*.jks
