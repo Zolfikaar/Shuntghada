@@ -40,13 +40,13 @@
                      HorizontalOptions="Fill">
 
                 <Image x:Name="MealImage" 
-           HeightRequest="200" 
-           WidthRequest="300"
-           MinimumHeightRequest="200"
-           MinimumWidthRequest="300"
-           Aspect="AspectFill" 
-           HorizontalOptions="Center"
-           Source="dotnet_bot.png"/>
+                       HeightRequest="200" 
+                       WidthRequest="300"
+                       MinimumHeightRequest="200"
+                       MinimumWidthRequest="300"
+                       Aspect="AspectFill" 
+                       HorizontalOptions="Center"
+                       Source="dotnet_bot.png"/>
 
                 <Label x:Name="MealNameLabel" FontSize="26" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#333333"/>
                 <Label x:Name="MealAltNameLabel" FontSize="16" FontAttributes="Italic" HorizontalOptions="Center" TextColor="#777777" HorizontalTextAlignment="Center"/>

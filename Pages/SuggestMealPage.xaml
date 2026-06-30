@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Shuntghada.Pages.SuggestMealPage"
+             Title="ساهم بطبخة جديدة 👨‍🍳">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="اقتراحك سيصل إلينا مباشرة، وسنقوم بمراجعته وتنسيقه وإضافته للجميع! ✨"
+                   FontSize="16"
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
+
+            <Line Stroke="LightGray" X2="400" HorizontalOptions="Center"/>
+
+            <Label Text="اسم الطبخة (إجباري):" FontAttributes="Bold" />
+            <Entry x:Name="MealNameEntry" Placeholder="مثال: قوزي عراقي، مقلوبة..." />
+
+            <Label Text="المكونات الرئيسية (اختياري):" FontAttributes="Bold" />
+            <Editor x:Name="IngredientsEditor" 
+                    Placeholder="اكتب المكونات هنا..." 
+                    HeightRequest="100" />
+
+            <Label Text="طريقة الإعداد (اختياري):" FontAttributes="Bold" />
+            <Label Text="💡 نصيحة: يفضل كتابة كل خطوة في سطر منفصل" FontSize="12" TextColor="DimGray" />
+            <Editor x:Name="InstructionsEditor" 
+                    Placeholder="الخطوة الأولى...&#10;الخطوة الثانية..." 
+                    HeightRequest="150" />
+
+            <Button x:Name="SubmitButton"
+                    Text="إرسال الاقتراح للمراجعة 🚀"
+                    Clicked="OnSubmitSuggestionClicked"
+                    HeightRequest="50"
+                    Margin="0,20,0,0" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
